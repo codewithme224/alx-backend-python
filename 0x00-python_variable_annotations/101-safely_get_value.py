@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
-
-
+"""Annotating the above function's parameters and return values"""
 from typing import Mapping, Any, Union, TypeVar
-
-
 T = TypeVar('T')
 
 
