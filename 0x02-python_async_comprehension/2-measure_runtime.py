@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
-"""Measure the runtime
-"""
+"""Measure the runtime"""
 
 
 import asyncio
 from time import perf_counter
-# async_generator = __import__('0-async_generator').async_generator
 async_comprehension = __import__('1-async_comprehension').async_comprehension
-
 
 
 async def measure_runtime() -> float:
